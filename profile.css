@@ -1,0 +1,74 @@
+:root {
+    --primary-color: #1E90FF;
+    --secondary-color: #a2d8eb;
+    --text-color: rgb(10, 0, 0);
+    --light-gray: #e2dddd;
+  }
+ 
+  .profile-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: var(--light-gray);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    animation: fadeIn ease 2s;
+  }
+
+  .profile-header {
+    
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+  }
+ 
+  .profile-name {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    animation: slideInLeft ease 2s;
+  }
+ 
+  .profile-content {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: var(--text-color);
+    padding: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 0px 0px 10px 10px;
+    animation: slideInRight ease 2s;
+  }
+  
+  .contact-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact-list li {
+    margin-bottom: 10px;
+  }
+
+  .section-header {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .education-list, .project-list, .certificate-list ,.skills-list,.extra_activities-list,.AreaOfInterest-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .education-list li, .project-list li, .certificate-list li,.skills-list li,.extra_activities-list li,.AreaOfInterest-list li{
+    margin-bottom: 10px;
+  }
+  
+
